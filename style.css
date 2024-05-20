@@ -1,0 +1,116 @@
+@import url("https://fonts.googleapis.com/css2?family=Cinzel:wght@400..900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Cinzel", serif;
+}
+
+.logo {
+  width: 150px;
+}
+
+.logo img {
+  width: 100%;
+  object-fit: cover;
+  box-shadow: rgba(255, 255, 255, 0.35) 0px 5px 15px;
+}
+
+nav {
+  width: 100%;
+  padding: 5px 80px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+nav ul {
+  display: flex;
+  justify-content: space-between;
+}
+
+nav ul li {
+  list-style: none;
+}
+
+nav ul li a {
+  text-decoration: none;
+  font-size: 14px;
+  margin-right: 100px;
+  color: #000000;
+  font-weight: 700;
+  font-size: 18px;
+}
+
+.hero-section {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.hero-text {
+  width: 40%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.hero-text h1 {
+  font-size: 5rem;
+  color: #6e0000;
+}
+
+.hero-text h1 .hap {
+  font-size: 2rem;
+  position: absolute;
+  left: 352px;
+  margin-top: 65px;
+}
+
+.hero-text h1 .maha {
+  position: relative;
+  left: 120px;
+}
+
+.hero-img {
+  width: 40%;
+}
+
+.hero-img img {
+  width: 100%;
+}
+
+.text-area {
+  width: 75%;
+  position: relative;
+  top: 80px;
+  height: 72px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 30px;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+}
+
+.hero-text input {
+  width: 90%;
+  padding: 10px;
+  border-radius: 5px;
+  height: 50px;
+  border: none;
+  outline: none;
+  font-size: 18px;
+  font-weight: 700;
+}
+
+button {
+  position: absolute;
+  padding: 8px 20px;
+  border-radius: 5px;
+  border: none;
+  background: #000000;
+  right: 15px;
+  top: 18px;
+  cursor: pointer;
+  color: #fff;
+  font-size: 15px;
+}
